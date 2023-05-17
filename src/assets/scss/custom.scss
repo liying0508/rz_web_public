@@ -1,0 +1,163 @@
+.custom-form {
+  .col-input{
+    width: 100%;
+    display: inline-block;
+  }
+  .el-form-item {
+    box-sizing: border-box;
+    padding-right: 16px;
+    position: relative;
+    margin-bottom:18px;
+    .el-form-item__label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      line-height: 36px;
+    }
+
+    .el-form-item__content {
+      box-sizing: border-box;
+      line-height: 36px;
+      .el-input__inner{
+        height: 36px;
+        line-height: 36px;
+      }
+    }
+  }
+  .desc-content{
+    min-height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    min-width: 50px;
+  }
+  .p-left-50 {
+    padding-left: 50px;
+  }
+  .p-left-60 {
+    padding-left: 60px;
+  }
+  .p-left-70 {
+    padding-left:70px;
+  }
+  .p-left-80 {
+    padding-left: 80px;
+  }
+  .p-left-90 {
+    padding-left: 90px;
+  }
+  .p-left-100 {
+    padding-left: 100px;
+  }
+  .p-left-105 {
+    padding-left: 105px;
+  }
+  .p-left-110 {
+    padding-left: 110px;
+  }
+  .p-left-200{
+    padding-left: 200px;
+  }
+  .el-row-top-line{
+    border-top: 1px solid #F5F7FA;
+    padding-top:20px;
+  }
+
+}
+.el-dialog{
+  border-radius: 6px;
+  .el-dialog__header{
+    background-color: #F5F7FA;
+    border-radius: 6px;
+  }
+}
+
+.form-el-dialog{
+  .el-dialog__header{
+    padding:15px 20px 10px;
+    .el-dialog__headerbtn{
+      top:15px;
+    }
+  }
+  .el-dialog__body{
+    padding: 20px 20px 10px 20px;
+    .el-divider--horizontal{
+      margin: 10px 0 24px 0;
+    }
+    .el-upload__tip {
+      display: inline-block;
+      margin-left: 20px;
+    }
+    .add-upload-btn{
+      margin-bottom: 16px;
+    }
+    th{
+      font-weight: 400 !important;
+      background-color: #F5F7FA;
+    }
+    .el-table td, .el-table th{
+      padding: 8px 0;
+    }
+    .upload-icon,.remove-icon{
+      font-size: 20px;
+      margin:0 5px;
+    }
+    .menu-row{
+      margin-bottom: 20px;
+
+    }
+    .form-menu-item{
+      height: 36px;
+      line-height: 36px;
+    }
+    .el-form-item__label{
+      &:after{
+        clear: both;
+      }
+    }
+    .el-input-right{
+      .el-input__inner{
+        text-align: right;
+      }
+    }
+    .el-input__icon{
+      line-height: 36px;
+    }
+    .el-range-editor.el-input__inner{
+      padding: 0 10px;
+    }
+
+  }
+ /* .vxe-table--render-default.border--full .vxe-body--column, .vxe-table--render-default.border--full .vxe-footer--column, .vxe-table--render-default.border--full .vxe-header--column{
+    background-image: linear-gradient(#F5F7FA,#F5F7FA),linear-gradient(#F5F7FA,#F5F7FA);
+  }*/
+}
+.vxe-input--panel{
+  z-index: 9999 !important;
+}
+.vxe-table--tooltip-wrapper.theme--dark{
+  z-index: 9999 !important;
+}
+.upload-icon{
+  color:#409EFF;
+}
+.remove-icon{
+  color:#F56C6C;
+
+}
+.color-required{
+  color:#F56C6C;
+}
+.upload-icon,.remove-icon{
+  cursor: pointer;
+  &:hover{
+    opacity: .8;
+  }
+}
+.ellipsis{
+  overflow: hidden;/*超出部分隐藏*/
+  text-overflow:ellipsis;/* 超出部分显示省略号 */
+  white-space: nowrap;/*规定段落中的文本不进行换行 */
+}
+.el-table__fixed-right::before, .el-table__fixed::before{
+  background-color: transparent;
+}
