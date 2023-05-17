@@ -91,6 +91,8 @@ export default {
   data () {
     return {
       dataForm: {
+        order: 'desc',
+        orderField: 'create_date',
         deptName: '',
         quota: '',
         creditMeasures: '',

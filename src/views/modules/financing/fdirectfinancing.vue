@@ -121,6 +121,8 @@ export default {
   data () {
     return {
       dataForm: {
+        order: 'desc',
+        orderField: 'create_date',
         // condition: '',
         // deptName: '',
         approvalAmount: '',

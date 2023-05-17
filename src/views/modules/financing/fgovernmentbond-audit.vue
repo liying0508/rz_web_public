@@ -104,6 +104,8 @@ export default {
         deleteIsBatch: true
       },
       dataForm: {
+        order: 'desc',
+        orderField: 'create_date',
         financingAmount: '',
         project: '',
         unit: this.$store.state.unit,

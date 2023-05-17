@@ -72,6 +72,8 @@ export default {
   data () {
     return {
       dataForm: {
+        order: 'desc',
+        orderField: 'create_date',
         approveOrg: '',
         approveNo: '',
         issueQuota: '',

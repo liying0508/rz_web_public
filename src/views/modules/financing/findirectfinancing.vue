@@ -190,6 +190,8 @@ export default {
       dataForm: {
         // name: '',
         // condition: '',
+        order: 'desc',
+        orderField: 'create_date',
         deptName: '',
         varieties: '',
         contractAmount: '',
